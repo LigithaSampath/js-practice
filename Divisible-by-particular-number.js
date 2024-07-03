@@ -1,4 +1,4 @@
-//check given number is divisilbe by a particular other number using ternary operator 
+//check given number is divisilbe by a particular or other number using ternary operator 
 let num = 25;
 let result = (num % 2 == 0) ? "true" : "fasle"
 console.log(result);
