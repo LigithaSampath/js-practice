@@ -1,0 +1,48 @@
+//check given string is palindrome or not using while-loop
+let nam1="wowi";
+
+function palindrome(nam1)
+{
+let left=0;
+let right=nam1.length-1;
+while(left<right){
+if(nam1[left]!= nam1[right])
+{
+return false;
+}
+left++;
+right--;
+}return true;
+
+}
+console.log(palindrome(nam1));
+
+
+let nam="wow";
+
+function palindrome1(nam)
+{
+let left=0;
+let right=nam.length-1;
+while(left<right){
+if(nam[left]!= nam[right])
+{
+return false;
+}
+left++;
+right--;
+}return true;
+
+}
+console.log(palindrome1(nam));
+
+// check given string is plaindrome or not using if conditon 
+
+let name="momi";
+function palindrome2(name){
+if(name === name.split('').reverse().join('')){
+return ("its palindrome");
+}
+return ("its not palindrome")
+}
+console.log(palindrome2(name));
